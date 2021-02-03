@@ -1,0 +1,128 @@
+ :root { 
+     background-color: rgb(40, 3, 252); 
+     animation-name: example; 
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes example {
+     0% {background-color: #f54242;}
+     25% {background-color: #ecf542 ;}
+     50% {background-color:#75f542 ;}
+     75% {background-color: #8a42f5;}
+     100% {background-color: #ef42f5 ;}
+ }
+
+ * {
+     box-sizing: border-box;
+     padding: 0;
+     font-family: "Pacifico", cursive, Verdana, Geneva, Tahoma, sans-serif; 
+     align-items: center;
+     justify-content: center;
+
+ }
+    h1 {
+        color: #fcba03;
+        font-size: 5em;
+        margin-bottom: 5rem;
+    }
+
+    #home {
+        border-style: solid;
+        border-color: #ffffff;
+        border-radius: 5em 20 em;
+        border-width: 15px;
+
+       
+    }
+    
+    .container {
+        width: 100vw; 
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-center {
+        justify-content: center;
+        align-items: center;
+
+    }
+    .text-center {
+        text-align:center;
+    
+    }
+    .hidden {
+        display: none;
+
+    }
+
+    .btn {
+        font-size: 2rem;
+        padding: 2rem 0;
+        width: 30rem;
+        text-align: center ;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: #ffffff;
+        background: linear-gradient(90deg, #0390fc, #03c6fc);
+        border-radius: 4px;
+    }
+
+
+
+    /*end.html */
+    .end-form-container {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        max-width: 30rem;
+    }
+
+    input {
+        margin-bottom: 1.5rem;
+        width: 32rem;
+        padding: 1rem;
+        font-size: 1rem;
+        border: none;
+        box-shadow: #f54242;
+    }
+    #username {
+       margin-bottom: 1rem ;
+       width: 100%;
+       outline: none;
+    }
+
+    #saveScoreBtn {
+       
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        padding: 2rem 0;
+        width: 30rem;
+        text-align: center ;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: #ffffff;
+        background: linear-gradient(90deg, #0390fc, #03c6fc);
+        border-radius: 4px;
+    }
+    form { 
+        width: 100%;
+        display:block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 0;
+        margin-left: 50%;
+    }
+
+    input  { 
+       display: block;
+
+    }

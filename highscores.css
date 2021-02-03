@@ -1,0 +1,22 @@
+:root { 
+    background-color: rgb(40, 3, 252); 
+    animation-name: example; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+    0% {background-color: #f54242;}
+    25% {background-color: #ecf542 ;}
+    50% {background-color:#75f542 ;}
+    75% {background-color: #8a42f5;}
+    100% {background-color: #ef42f5 ;}
+}
+
+
+body { 
+    color: white;
+
+}
+

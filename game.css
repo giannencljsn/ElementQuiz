@@ -1,0 +1,129 @@
+:root { 
+    background-color: rgb(40, 3, 252); 
+    animation-name: example; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+    0% {background-color: #f54242;}
+    25% {background-color: #ecf542 ;}
+    50% {background-color:#75f542 ;}
+    75% {background-color: #8a42f5;}
+    100% {background-color: #ef42f5 ;}
+}
+
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color: red; 
+    background: #ffffff;
+}
+
+.submit {
+    margin-left: 40%;
+
+}
+a {
+    text-decoration: none;
+}
+.return {
+    margin-left: 15%;
+    display:hidden;
+}
+.submit:onclick {
+    background-color: lightseagreen;
+
+}
+
+.return:onclick {
+    background-color: lightseagreen;
+
+}
+
+body { color: #000000;
+}
+#progressText {
+    font-size: 3rem;
+    text-align: center;
+
+}
+#hud {
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+#game {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#question {
+    font-size: 1.5rem;
+    font-family:'Courier New', Courier, monospace;
+}
+.hud-item {
+    font-family: cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.75rem;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Question format*/
+.hud-prefix {
+    text-align: center;
+    font-size:2rem;
+}
+.container {
+    justify-content: center;    
+    align-items: center;
+}
+
+.choice-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+    width: 50%;
+    border-radius: 4px;
+    margin: 0px, 30px;  
+    background: #ffffff;
+    font-size: 1.5rem;
+    margin-left: 25%;
+
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #d41111;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: #ffffff;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: #0fd641;
+}
+
+.incorrect {
+    background: #f5220f;
+}
+
+/*Hide the ABCD */
+
+@media screen and (max-width: 768 px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
